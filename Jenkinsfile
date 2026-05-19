@@ -78,7 +78,7 @@ pipeline {
 
                 docker ps
 
-                curl http://localhost:8081/users || true
+                curl http://localhost:8082/users || true
                 '''
             }
         }
